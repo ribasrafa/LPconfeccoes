@@ -1,0 +1,25 @@
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    padding: 1rem;
+}
+
+body{
+    background-color: #090b24;
+}
+
+a{
+    color: #173955;
+}
+
+a:hover {
+    color: #79c0ea;
+}
+
+body{
+    text-align: center;
+}
+
