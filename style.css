@@ -19,7 +19,53 @@ a:hover {
     color: #79c0ea;
 }
 
-body{
+body {
     text-align: center;
 }
 
+.roupas img {
+    display: flex;
+    
+}
+
+.roupas p{
+    display: flex;
+    justify-content: space-between;
+}
+
+body h1 {
+    color: aliceblue;
+}
+body h2 {
+    color: aliceblue;
+}
+
+body h3 {
+    color:aliceblue;
+}
+
+body h4 {
+    color: aliceblue;
+}
+
+body p{
+    color: aliceblue;
+}
+
+.item-catalogo {
+    display: flex;
+    flex-wrap: nowrap;  /* Impede que as imagens "quebrem" para a linha de baixo */
+    gap: 10px;  /*tamanho do espaçamento*/
+    align-items: center;
+    justify-content: center;
+}
+
+.item-catalogo img {
+    width: 150px;
+    height: auto;  /*mantem a proporção*/
+}
+
+.roupas h4 {
+    width: 100%;
+    
+}
